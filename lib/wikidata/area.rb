@@ -2,14 +2,29 @@ require "wikidata/area/version"
 
 module Wikidata
   class Area
-    SKIP = %i(P17 P18 P242 P910).to_set
+    SKIP = %i(
+      P17 P18 P36 P47 P131 P163 P242 P373 P421 P610 P910 P935 P948 P982
+      P1082 P1343 P1464 P1465 P1740 P1792 P2633
+    ).to_set
     # TODO, reinstate this once Wikisnakker handles co-ordinates
     SKIP << :P625
 
     WANT = {
-      P31:  :type,
-      P571: :start_date,
-      P576: :end_date,
+      P31:   :type,
+      P41:   :flag, # TODO: fall back on P163
+      P94:   :coat_of_arms,
+      P300:  :iso_code,
+      P571:  :start_date,
+      P576:  :end_date,
+      P856:  :website,
+      P1365: :replaces,
+      P227:  :identifier__gnd,
+      P268:  :identifier__bnf,
+      P646:  :identifier__freebase,
+      P901:  :identifier__fips,
+      P998:  :identifier__dmoz,
+      P1566: :identifier__geonames,
+      P1667: :identifier__tgn,
     }.freeze
 
     def initialize(item)

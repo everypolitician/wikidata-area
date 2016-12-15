@@ -1,4 +1,4 @@
-require "wikidata/area/version"
+require 'wikidata/area/version'
 
 module Wikidata
   class Area
@@ -48,7 +48,7 @@ module Wikidata
     end
 
     def names
-      item.labels.map { |k, v| ["name__#{k.to_s.gsub('-','_')}", v[:value]] }.to_h
+      item.labels.map { |k, v| ["name__#{k.to_s.tr('-', '_')}", v[:value]] }.to_h
     end
 
     def unknown_properties

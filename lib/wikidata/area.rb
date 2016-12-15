@@ -48,7 +48,9 @@ module Wikidata
     end
 
     def names
-      item.labels.map { |k, v| ["name__#{k.to_s.tr('-', '_')}", v[:value]] }.to_h
+      item.labels.map do |k, v|
+        ["name__#{k.to_s.tr('-', '_')}", v[:value]]
+      end.to_h
     end
 
     def unknown_properties

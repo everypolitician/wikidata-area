@@ -1,5 +1,5 @@
 module Wikidata
-  module Area
+  class Area
     VERSION = "0.1.0"
   end
 end

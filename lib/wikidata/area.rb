@@ -16,6 +16,8 @@ module Wikidata
       P300:  :iso_code,
       P571:  :start_date,
       P576:  :end_date,
+      P580:  :start_date,
+      P582:  :end_date,
       P856:  :website,
       P1365: :replaces,
       P1366: :replaced_by,

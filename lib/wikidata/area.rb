@@ -21,6 +21,7 @@ module Wikidata
       P214:  :identifier__viaf,
       P227:  :identifier__gnd,
       P268:  :identifier__bnf,
+      P402:  :identifier__openstreetmap,
       P646:  :identifier__freebase,
       P901:  :identifier__fips,
       P998:  :identifier__dmoz,

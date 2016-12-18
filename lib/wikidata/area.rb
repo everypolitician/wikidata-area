@@ -26,6 +26,7 @@ module Wikidata
       P268:  :identifier__bnf,
       P402:  :identifier__openstreetmap,
       P646:  :identifier__freebase,
+      P836:  :identifier__gss,
       P901:  :identifier__fips,
       P998:  :identifier__dmoz,
       P1566: :identifier__geonames,

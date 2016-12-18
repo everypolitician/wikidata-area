@@ -18,6 +18,7 @@ module Wikidata
       P576:  :end_date,
       P856:  :website,
       P1365: :replaces,
+      P1366: :replaced_by,
       P214:  :identifier__viaf,
       P227:  :identifier__gnd,
       P268:  :identifier__bnf,

@@ -32,6 +32,7 @@ module Wikidata
       P1566: :identifier__geonames,
       P1617: :identifier__bbc_things,
       P1667: :identifier__tgn,
+      P3221: :identifier__newyorktimes,
     }.freeze
 
     def initialize(item)

@@ -35,6 +35,7 @@ module Wikidata
       P1617: :identifier__bbc_things,
       P1667: :identifier__tgn,
       P3221: :identifier__newyorktimes,
+      P3417: :identifier__quora,
     }.freeze
 
     def initialize(item)

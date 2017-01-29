@@ -30,6 +30,7 @@ module Wikidata
       P836:  :identifier__gss,
       P901:  :identifier__fips,
       P998:  :identifier__dmoz,
+      P1417: :identifier__britannica,
       P1566: :identifier__geonames,
       P1617: :identifier__bbc_things,
       P1667: :identifier__tgn,

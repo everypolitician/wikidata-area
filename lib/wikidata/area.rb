@@ -23,6 +23,7 @@ module Wikidata
       P1366: :replaced_by,
       P214:  :identifier__viaf,
       P227:  :identifier__gnd,
+      P244:  :identifier__lcauth,
       P268:  :identifier__bnf,
       P402:  :identifier__openstreetmap,
       P646:  :identifier__freebase,

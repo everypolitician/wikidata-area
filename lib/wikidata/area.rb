@@ -6,8 +6,9 @@ module Wikidata
       P17 P18 P36 P47 P131 P163 P242 P373 P421 P610 P910 P935 P948 P982
       P1082 P1343 P1464 P1465 P1740 P1792 P2633
     ).to_set
-    # TODO, reinstate this once Wikisnakker handles co-ordinates
-    SKIP << :P625
+
+    SKIP << :P625 # TODO: use once Wikisnakker handles co-ordinates
+    SKIP << :P1448 # TODO: use once Wikisnakker handles monolingualtext
 
     WANT = {
       P31:   :type,
